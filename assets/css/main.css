@@ -2912,18 +2912,20 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-	}
+#header {
+  padding: 9em 0 9em 0;
+  color: rgba(255, 255, 255, 0.9);
+
+  /* 네이비 → 블루 그라데이션 */
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 50%, #415a77 100%);
+
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
